@@ -1,0 +1,11 @@
+[package]
+name = "vew-net"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "vew_net"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+socket2 = "0.6.5"
